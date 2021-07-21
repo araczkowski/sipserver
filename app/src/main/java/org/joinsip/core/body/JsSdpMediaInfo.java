@@ -47,12 +47,12 @@ public class JsSdpMediaInfo
     this.transport = paramString;
   }
 
-  public static JsSdpMediaInfo parse(String paramString)
+  public static org.joinsip.core.body.JsSdpMediaInfo parse(String paramString)
   {
     return null;
   }
 
-  public void copy(JsSdpMediaInfo paramJsSdpMediaInfo)
+  public void copy(org.joinsip.core.body.JsSdpMediaInfo paramJsSdpMediaInfo)
   {
     this.rtpParameter = paramJsSdpMediaInfo.getRTPParameter();
     this.port = paramJsSdpMediaInfo.getPort();

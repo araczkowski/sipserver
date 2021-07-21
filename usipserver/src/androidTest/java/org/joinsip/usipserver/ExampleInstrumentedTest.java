@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("org.joinsip.usipserver.test", appContext.getPackageName());
+        assertEquals("org.org.joinsip.usipserver.test", appContext.getPackageName());
     }
 }

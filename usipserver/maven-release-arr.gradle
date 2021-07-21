@@ -3,7 +3,7 @@ apply plugin: 'maven'
 
 // 2.maven-信息
 ext {// ext is a gradle closure allowing the declaration of global properties
-    PUBLISH_GROUP_ID = 'org.joinsip'
+    PUBLISH_GROUP_ID = 'org.org.joinsip'
     PUBLISH_ARTIFACT_ID = 'usipserver'
     PUBLISH_VERSION = android.defaultConfig.versionName
 }

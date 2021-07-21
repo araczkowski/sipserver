@@ -1,7 +1,5 @@
 package org.joinsip.common;
 
-import java.io.PrintStream;
-
 public class JsSystem
 {
   public static JsPrintStream err;
